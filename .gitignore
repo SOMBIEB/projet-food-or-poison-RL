@@ -1,0 +1,16 @@
+# Fichiers système
+__pycache__/
+*.pyc
+*.log
+
+# Environnements virtuels
+.venv/
+venv/
+
+# Fichiers et dossiers VS Code
+.vscode/
+
+# Données temporaires ou auto-générées
+*.npy
+*.pkl
+*.db
