@@ -103,15 +103,16 @@ python test_Agent_Qlearning.py
 🎥 Démonstrations vidéo – Agent Q-Learning
 
 ▶️ **Apprentissage de l'agent Q-Learning**  
-[Lancer la vidéo](C:\Projet_apprentissage_par_renforcement\demo_apprentissage_Qlearning.mp4)
+[Lancer la vidéo](media/demo_apprentissage_Qlearning.mp4)
 
 ▶️ **Agent Q-Learning entraîné (jeu final)**  
-[Lancer la vidéo](C:\Projet_apprentissage_par_renforcement\demo_Qlearning_appris.mp4)
+[Lancer la vidéo](media/demo_qlearning_appris.mp4)
 
 **Partie jouée par un humain (mode manuel)**  
-  [▶️ Voir la vidéo](C:\Projet_apprentissage_par_renforcement\demo_jouer_par_un_humain.mp4)
+  [▶️ Voir la vidéo](media/demo_jouer_par_un_humain.mp4)
 ---
-
+### 📄 Présentation du projet  
+[📄 Voir la présentation PDF](media/presentation.pdf)
 ---
 
 ## 📝 Remarques
