@@ -121,3 +121,5 @@ python test_Agent_Qlearning.py
 - Il perd **-1** en effectuant des deplacements inutils
 - L’interface graphique s’adapte automatiquement selon le mode (PPO ou Humain).
 - L’environnement est basé sur une **grille de 15x15** avec rendu Pygame.
+  ## 🔗 Lien du projet 
+  https://github.com/SOMBIEB/projet-food-or-poison-RL.git
