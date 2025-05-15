@@ -109,7 +109,7 @@ python test_Agent_Qlearning.py
 [Lancer la vidéo](media/demo_qlearning_appris.mp4)
 
 **Partie jouée par un humain (mode manuel)**  
-  [▶️ Voir la vidéo](media/demo_jouer_par_un_humain.mp4)
+[▶️ Voir la vidéo](media/demo_jouer_par_un_humain.mp4)
 ---
 ### 📄 Présentation du projet  
 [📄 Voir la présentation PDF](media/Présentation_projet_FP.pdf) 
