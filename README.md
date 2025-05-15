@@ -112,7 +112,7 @@ python test_Agent_Qlearning.py
   [▶️ Voir la vidéo](media/demo_jouer_par_un_humain.mp4)
 ---
 ### 📄 Présentation du projet  
-[📄 Voir la présentation PDF](media/Présentation_projet.pdf)
+[📄 Voir la présentation PDF](media/Présentation_projet_FP.pdf) 
 ---
 
 ## 📝 Remarques
