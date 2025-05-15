@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 ### 🧠 PPO — Agent IA (Stable-Baselines3)
 
-#### 🟡 Menu interactif (humain ou IA PPO)
+#### 🟡 Menu interactif pour tester le jeu s'il fonctinne normalement (humain ou IA PPO)
 ```bash
 python play_or_watch.py
 ```
@@ -84,6 +84,18 @@ python play_as_human_QLgame.py
 ```bash
 python test_Agent_Qlearning.py
 ```
+
+🎥 Démonstrations vidéo – Agent Q-Learning
+
+▶️ **Apprentissage de l'agent Q-Learning**  
+[Lancer la vidéo](C:\Projet_apprentissage_par_renforcement\demo_apprentissage_Qlearning.mp4)
+
+▶️ **Agent Q-Learning entraîné (jeu final)**  
+[Lancer la vidéo](C:\Projet_apprentissage_par_renforcement\demo_Qlearning_appris.mp4)
+
+**Partie jouée par un humain (mode manuel)**  
+  [▶️ Voir la vidéo](C:\Projet_apprentissage_par_renforcement\demo_jouer_par_un_humain.mp4)
+---
 
 ---
 
