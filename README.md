@@ -1,10 +1,10 @@
-# 🎮 PROJETFINALRL — "Food or Poison" avec IA et Joueur Humain
+# 🎮 PROJET_RL — "Food or Poison" avec IA(Agent) et Joueur Humain
 
-Bienvenue dans mon projet de fin de module en **apprentissage par renforcement**. J’ai développé un petit jeu interactif en Python dans lequel un robot — ou le joueur lui-même — peut **manger de la nourriture** ou **tomber sur du poison**, dans un environnement quadrillé. L’objectif est de montrer comment un agent peut apprendre à jouer **grâce à une IA (PPO ou Q-Learning)**, ou être contrôlé **manuellement par un humain**.
+Bienvenue dans mon projet de fin de module en **apprentissage par renforcement**. J’ai développé un petit jeu interactif en Python dans lequel un robot ou le joueur lui-même peut **manger de la nourriture** ou **tomber sur du poison**, dans un environnement quadrillé. L’objectif est de montrer comment un agent peut apprendre à jouer **grâce à une IA (PPO ou Q-Learning)**, ou être contrôlé **manuellement par un humain**.
 
 Ce jeu pourrait même avoir une application pédagogique pour les enfants de 3 à 6 ans, afin de leur apprendre les principes de récompense et de conséquence. Des améliorations futures pourraient inclure une palette de couleurs et d’éléments plus variée, chacun avec une signification précise.
 
----
+
 
 ## 🎯 Objectifs spécifiques du projet
 
@@ -14,6 +14,19 @@ Ce jeu pourrait même avoir une application pédagogique pour les enfants de 3 �
    - Q-Learning (table de valeurs)
 
 ---
+### 🎮 Règles du jeu
+
+
+| Condition                                | Effet                                                            |
+|------------------------------------------|------------------------------------------------------------------|
+| 🟢 Le joueur mange 1 nourriture          | Récompense positive : **+250**                                   |
+| 🔴 Le joueur mange 1 poison              | Récompense négative : **-250**                                   |
+| 🚶 Déplacements inutiles                 | Récompense négative : **-1**                                             |
+| ☠️ Le joueur mange 4 poisons             | Fin de la partie : affichage de **Game Over 💀**                 |
+| 🎯 Le joueur mange 5 nourritures         | Passage au **niveau supérieur 🚀**                               |
+| ▶️ Lancer une partie (mode manuel)       | Compiler : `play_as_human_ppogame.py` ou `play_as_human_QLgame.py` |
+
+
 
 ## 📁 Organisation du projet
 
@@ -29,9 +42,11 @@ Ce jeu pourrait même avoir une application pédagogique pour les enfants de 3 �
 ├── test_Agent_Qlearning.py      # Observer l’agent Q-Learning jouer seul
 ├── ppo_blob.zip                 # Modèle PPO entraîné (poids)
 ├── ppo_rewards.txt              # Historique des scores PPO pendant l'entraînement
+├── demo_apprentissage_Qlearning.mp4           # montre l'apprentissage en cours
+├── demo_Qlearning_appris.mp4                  # montre l’agent déjà entraîné
+├── demo_jouer_par_un_humain.mp4               # montre un humain en train de jouer
 ├── requirements.txt             # Bibliothèques Python nécessaires
-└── README.md                    # Ce fichier 📄
-```
+└── README.md                    # Ce fichier ici 📄
 
 ---
 
